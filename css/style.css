@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'Luckiest Guy';
+    }
+    *{
+    font-family: 'Luckiest Guy', cursive;
+    }
+    body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(pink, lightyellow, skyblue);  
+    }
+    div {
+    display: flex;
+    margin-left: 1px;
+    flex-wrap: wrap;
+    justify-content: center;  
+    }
+    #frame{
+    max-width: 900px;
+    margin: auto;  
+    
+    }
+    #box {
+    background-color: AliceBlue;
+    width: 33%;
+    box-shadow: 5px 10px 10px #888888;
+    }
+    #outline{
+    border: 20px solid;
+    -webkit-border-image: url(https://raw.githubusercontent.com/jpcruz6000/Ca-a-Niquel/master/border.svg) 60 stretch; /* Safari 3.1-5 */
+    -o-border-image: url(https://raw.githubusercontent.com/jpcruz6000/Ca-a-Niquel/master/border.svg) 60 stretch; /* Opera 11-12.1 */
+    border-image: url(https://raw.githubusercontent.com/jpcruz6000/Ca-a-Niquel/master/border.png) 60 stretch;
+    width: 90%;
+    }
+    img {
+    max-width: 100%;
+    opacity: 1;  
+    }
+    @keyframes anima {
+        to {
+            opacity: 0.2;
+        }
+    }
+    button {
+    background-color: red;
+    color: white;
+    font-size: 32px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+    h1 {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    color: yellow;
+    text-shadow: 0 0 3px red, 0 0 6px blue;
+    }
+    h2 {
+    width: 100%;
+    text-align: center;
+    color: yellow;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+    #coin {
+    background-color: gold;
+    text-shadow: 0 0 3px red, 0 0 6px blue;
+    }
+    #footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    }
+    p {
+    text-align: center;
+    width: 100%;
+    background-color: gold;
+    color: AliceBlue;
+    text-shadow: 0 0 3px red, 0 0 6px blue;
+    margin: 0;
+    padding: 0;
+    }
+    #jackpot {
+    color: blue;
+    text-shadow: 0 0 3px white, 0 0 6px yellow;
+    font-size: 32px;
+    width: 100%;
+    }
